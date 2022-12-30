@@ -1,0 +1,89 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  color: white;
+  font-weight: 600;
+  float: right;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(104, 240, 94);
+  padding: 12px 10px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ background-color: rgb(255, 201, 101);
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background-color: rgb(224, 146, 233) !important;
+}
+
+.box2{
+  margin-left: 100px;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+
+.column3{
+  float: left !important;
+  width: 33% !important;
+}
+
+h2{
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+
+.profile {
+  border: 2px solid rgb(124, 123, 124);
+  box-shadow: 0 4px 8px 0 rgba(85, 80, 80, 0.2);
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  border-radius: 18px;
+  background-color: rgb(165, 153, 247);
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(25, 17, 179, 0.959);
+  transform: translateY(-3px);
+}
+.email {
+  color: rgb(14, 14, 14);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:25px;
+  font-weight: bold;
+}
+.loader{
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 80px;
+}
